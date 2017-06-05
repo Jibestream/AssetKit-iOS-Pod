@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AssetKit-iOS-Pod_Example' do
+  pod 'AssetKit-iOS-Pod', :path => '../'
+
+  target 'AssetKit-iOS-Pod_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
