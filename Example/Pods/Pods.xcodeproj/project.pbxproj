@@ -10,7 +10,6 @@
 		4C1D83E5C063B01F64F2862AEA8946EF /* AssetKit-iOS-Pod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3873938E5BCD33806C6C9DF5F2A54F95 /* AssetKit-iOS-Pod-dummy.m */; };
 		4E2F994CBA1880E5E9E9888AE1445E3C /* Pods-AssetKit-iOS-Pod_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 359A3D4E0516C3815109139D2BFB2E9F /* Pods-AssetKit-iOS-Pod_Example-dummy.m */; };
 		C0257478DA1FE463263A7449CAFD5F06 /* Pods-AssetKit-iOS-Pod_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A31ABBE521B26A2F7FC87ED04FDC609F /* Pods-AssetKit-iOS-Pod_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C6F2E9701EE5CD560049A0EF /* JMapAssetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6F2E96F1EE5CD560049A0EF /* JMapAssetKit.framework */; };
 		C7C62DCB44107BA1FF38AF2F5DDD11F0 /* AssetKit-iOS-Pod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B4B2E8B2C259C7D1A4A24E784F996B68 /* AssetKit-iOS-Pod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C894840F9506B7BE95F082D8671F6382 /* Pods-AssetKit-iOS-Pod_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 58E15BE0EC3CEB35BBD33DCD18DADFC3 /* Pods-AssetKit-iOS-Pod_Tests-dummy.m */; };
 		CF4400B60CE9A715D80BBDDE815F2EEF /* Pods-AssetKit-iOS-Pod_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 469F97347E4864490EBAEB92D7DF35F5 /* Pods-AssetKit-iOS-Pod_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -50,7 +49,6 @@
 		A8805E88FD7D77A232A03E7FB1364E5F /* Pods-AssetKit-iOS-Pod_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AssetKit-iOS-Pod_Example-frameworks.sh"; sourceTree = "<group>"; };
 		B4B2E8B2C259C7D1A4A24E784F996B68 /* AssetKit-iOS-Pod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AssetKit-iOS-Pod-umbrella.h"; sourceTree = "<group>"; };
 		C2EF2C18B372DA3F12AE00F7F533A626 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C6F2E96F1EE5CD560049A0EF /* JMapAssetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JMapAssetKit.framework; path = "AssetKit-iOS-Pod/Frameworks/JMapAssetKit.framework"; sourceTree = "<group>"; };
 		CE8B2598A5A72E2B325EDC8A045CB48F /* Pods-AssetKit-iOS-Pod_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AssetKit-iOS-Pod_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		D353FDCEE8C5ADE7F794089E4B8F29C6 /* Pods-AssetKit-iOS-Pod_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AssetKit-iOS-Pod_Example.modulemap"; sourceTree = "<group>"; };
 		DF4CAB7E443A29BC1C3180E8ED060DD8 /* AssetKit-iOS-Pod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "AssetKit-iOS-Pod.modulemap"; sourceTree = "<group>"; };
@@ -79,7 +77,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6F2E9701EE5CD560049A0EF /* JMapAssetKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,7 +181,6 @@
 		C6F2E96C1EE5CC820049A0EF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C6F2E96F1EE5CD560049A0EF /* JMapAssetKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
