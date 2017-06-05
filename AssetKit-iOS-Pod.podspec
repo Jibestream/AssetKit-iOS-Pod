@@ -6,7 +6,7 @@ s.version='1.0.0'
   s.description      = 'This CocoaPod provides the release version of the AssetKit for the Jibestream iOS SDK.'
 
   s.homepage         = 'http://www.jibestream.com/'
-  s.author           = { 'louieyune' => 'lyuen@jibestream.com' }
+  s.author           = { 'louie' => 'lyuen@jibestream.com' }
   s.source           = { :git => 'https://github.com/louieyune/AssetKit-iOS-Pod.git', :tag => "#{s.version}" }
 
   s.ios.deployment_target = '9.0'
