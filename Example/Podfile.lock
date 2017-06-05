@@ -1,0 +1,16 @@
+PODS:
+  - AssetKit-iOS-Pod (0.1.0)
+
+DEPENDENCIES:
+  - AssetKit-iOS-Pod (from `../`)
+
+EXTERNAL SOURCES:
+  AssetKit-iOS-Pod:
+    :path: ../
+
+SPEC CHECKSUMS:
+  AssetKit-iOS-Pod: a8d97d5911e1d1ed1c9a0b9fdb7432a55812f730
+
+PODFILE CHECKSUM: 21985fbeb29a4455d895f624397a8d4f46d8a556
+
+COCOAPODS: 1.2.0.beta.1
