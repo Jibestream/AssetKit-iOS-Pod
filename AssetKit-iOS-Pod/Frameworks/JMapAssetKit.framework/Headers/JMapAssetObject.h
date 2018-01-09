@@ -7,10 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <JMapAssetKit/JMapAssetKit.h>
 #import <JMapRenderingKit/JMapMovingObject.h>
 
-@interface JMapAsset : JMapMovingObject
+@interface JMapAssetObject : JMapMovingObject
 
 @property (nonatomic, nonnull) NSString *type;
 @property (nonatomic, assign, nullable) id delegate;
