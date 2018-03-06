@@ -1,5 +1,5 @@
 //
-//  JMapAssetKit.h
+//  JMapAsset.h
 //  JMapAssetKit
 //
 //  Created by Louie Yuen on 2016-12-20.
@@ -14,6 +14,9 @@
 
 @class JMapAsset;
 
+/**
+ * The JMapAssetDelegate object
+ */
 @protocol JMapAssetDelegate <NSObject>
 
 @optional
@@ -44,6 +47,9 @@
 
 @end
 
+/**
+ * The JMapAsset model
+ */
 @interface JMapAsset : NSObject
 
 /**
@@ -55,7 +61,7 @@
  */
 @property (nonatomic, nonnull, readonly) NSMutableDictionary *assetsDictionary;
 /**
- * The JMapAssetKitDelegate Instance
+ * The JMapAssetDelegate Instance
  */
 @property (nonatomic, assign, nullable) id <JMapAssetDelegate> delegate;
 
