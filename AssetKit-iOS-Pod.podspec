@@ -7,7 +7,7 @@ s.version='2.0.1'
 
   s.homepage         = 'http://www.jibestream.com/'
   s.author           = { 'louie' => 'lyuen@jibestream.com' }
-  s.source           = { :git => 'https://github.com/louieyune/AssetKit-iOS-Pod.git', :tag => "#{s.version}" }
+  s.source           = { :git => 'https://github.com/Jibestream/AssetKit-iOS-Pod', :tag => "#{s.version}" }
 
   s.ios.deployment_target = '9.0'
   s.platform = :ios, '9.0'
