@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'AssetKit-iOS-Pod'
-s.version='2.0.1'
+s.version='2.1.0'
   s.summary          = 'The AssetKit-iOS-Pod for the Jibestream iOS SDK.'
 
   s.description      = 'This CocoaPod provides the release version of the AssetKit for the Jibestream iOS SDK.'

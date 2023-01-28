@@ -4,9 +4,21 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Headers/JMapAsset.h</key>
+		<data>
+		jOgO9mkr2WSwlzKiHrvShlaAJD8=
+		</data>
+		<key>Headers/JMapAssetKit.h</key>
+		<data>
+		FcX4XNokoDxo74KHxWx98jQiY/w=
+		</data>
+		<key>Headers/JMapAssetObject.h</key>
+		<data>
+		o4SCp4shQUWMGNDs6vysg46iIXE=
+		</data>
 		<key>Info.plist</key>
 		<data>
-		6RUnhHOG3J2J15rsISKUToJYMW8=
+		QhlEwWO/QYYOyLpa4Q+8ERCd17M=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -15,6 +27,39 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Headers/JMapAsset.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			jOgO9mkr2WSwlzKiHrvShlaAJD8=
+			</data>
+			<key>hash2</key>
+			<data>
+			MbJTMffugY/y6jmNIWBYOZSAXUrWU3y0f++HcIdizO0=
+			</data>
+		</dict>
+		<key>Headers/JMapAssetKit.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			FcX4XNokoDxo74KHxWx98jQiY/w=
+			</data>
+			<key>hash2</key>
+			<data>
+			HW77TsvS1beV2+K1odgzMMYo26DimpLLYRXJ6w5nSTo=
+			</data>
+		</dict>
+		<key>Headers/JMapAssetObject.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			o4SCp4shQUWMGNDs6vysg46iIXE=
+			</data>
+			<key>hash2</key>
+			<data>
+			lX5ilGKps6K0mH4l+ypbaTyT3swH4WGpvtrhepKbN40=
+			</data>
+		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
@@ -29,7 +74,7 @@
 	</dict>
 	<key>rules</key>
 	<dict>
-		<key>^</key>
+		<key>^.*</key>
 		<true/>
 		<key>^.*\.lproj/</key>
 		<dict>
@@ -60,24 +105,12 @@
 			<key>weight</key>
 			<real>11</real>
 		</dict>
-		<key>^</key>
-		<dict>
-			<key>weight</key>
-			<real>20</real>
-		</dict>
 		<key>^(.*/)?\.DS_Store$</key>
 		<dict>
 			<key>omit</key>
 			<true/>
 			<key>weight</key>
 			<real>2000</real>
-		</dict>
-		<key>^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/</key>
-		<dict>
-			<key>nested</key>
-			<true/>
-			<key>weight</key>
-			<real>10</real>
 		</dict>
 		<key>^.*</key>
 		<true/>
@@ -113,13 +146,6 @@
 			<true/>
 			<key>weight</key>
 			<real>20</real>
-		</dict>
-		<key>^[^/]+$</key>
-		<dict>
-			<key>nested</key>
-			<true/>
-			<key>weight</key>
-			<real>10</real>
 		</dict>
 		<key>^embedded\.provisionprofile$</key>
 		<dict>

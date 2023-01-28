@@ -1,0 +1,6 @@
+framework module JMapAssetKit {
+  umbrella header "JMapAssetKit.h"
+
+  export *
+  module * { export * }
+}
